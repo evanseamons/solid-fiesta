@@ -1,0 +1,68 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+body{
+    background: #444444 url(pattern-background.jpg) top center no-repeat;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #ffffff;
+    margin: 100px 0 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    
+  }
+  h2 {
+    color: #333333;
+    margin: 20px 0 5px 0;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  h3 {
+    color: #666666;
+    margin: 10px 0 10px 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+  }
+  p {
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    line-height: 24px;
+    text-align: center;
+  }
+  .nav{
+    padding: 20px;
+    text-align: center;
+    
+    
+  }
+  .nav li {
+    display: inline;
+    padding-right: 20px;
+    
+    font-weight: bold;
+  }
+  .nav li:last-child {
+    padding-right: 0;
+  }
+  .nav a {
+    color: #ffffff;
+  }
+  .header {
+   border-bottom: none;
+    background: #242424;
+    font-size: 22px;
+    text-decoration: none;
+}
